@@ -74,13 +74,13 @@
 
         <div class="col-md-7">
           <h5>ราคา {{ totaltaka() }} บาท</h5>
-          <h5>ค่าขนส่งทางเรือ {{ parseInt(weight) * 250 }} บาท</h5>
+          <h5>ค่าขนส่งทางเรือ {{ parseInt(weight) * 200 }} บาท</h5>
           <h5>ค่าขนส่งในไทย {{ send }} บาท</h5>
           <hr />
           <h4>
             จำนวนเงินทั้งหมด
             {{
-              parseInt(totaltaka()) + parseInt(weight) * 250 + parseInt(send)
+              parseInt(totaltaka()) + parseInt(weight) * 200 + parseInt(send)
             }}
             บาท
           </h4>
